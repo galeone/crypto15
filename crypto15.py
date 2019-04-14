@@ -12,7 +12,7 @@ import tensorflow_datasets as tfds
 class Crypto15(tfds.core.GeneratorBasedBuilder):
     """Crypto15: snapshot captured every 15 minutes of the status of 9 cryptocurrencies."""
 
-    VERSION = tfds.core.Version("0.1.0")
+    VERSION = tfds.core.Version("1.0.0")
 
     def __init__(self, **builder_kwargs):
         self._currencies = [
