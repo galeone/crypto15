@@ -26,7 +26,14 @@ class Crypto15(tfds.core.GeneratorBasedBuilder):
             "EOS",
             "ETC",
         ]
-        self._citation = ""
+        self._citation = """
+        @ONLINE {paologaleone2019,
+            author = "Paolo Galeone",
+            title  = "Crypto15: Dataset of snapshots captured every 15 minutes of the status of 9 cryptocurrencies (v1)",
+            month  = "apr",
+            year   = "2019",
+            url    = "https://github.com/galeone/crypto15"
+        }"""
 
         self._description = """
         Crypto15: snapshot captured every 15 minutes of the status of 9 cryptocurrencies.
